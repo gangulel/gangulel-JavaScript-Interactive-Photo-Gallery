@@ -1,0 +1,91 @@
+/*
+cody by dishma gangulel madushanka;
+date 1/11/2024;
+Homework: JavaScript Interactive Photo Gallery;
+Web Design for Everybody: Basics of Web Development & Coding Specialization;
+Course|University of Michigan */
+
+body{
+    background-color: #a3f2ff;
+}
+.preview1{
+
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    border: 1px solid #ccc;
+    margin: 10px;
+    display: flex;
+    background-color: #087575;
+
+
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 240px;
+    height: 180px;
+    margin-right: 20px;
+    margin-top: 30px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    background-image: url("defender.jpeg");
+}
+.box1{
+    width: 240px;
+    height: 180px;
+    margin-right: 20px;
+    margin-top: 30px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    background-image: url("bmwi8.jpeg");
+}
+.box2{
+    width: 240px;
+    height: 180px;
+    margin-right: 20px;
+    margin-top: 30px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    background-image: url("bensz.jpeg");
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tex2{
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #ffffff;
+}

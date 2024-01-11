@@ -1,0 +1,46 @@
+<!--
+    cody by dishma gangulel madushanka;
+    date 1/11/2024;
+    Homework: JavaScript Interactive Photo Gallery;
+    Web Design for Everybody: Basics of Web Development & Coding Specialization;
+    Course|University of Michigan
+-->
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>JavaScript Interactive Photo Gallery</title>
+    <script src="index.js"></script>
+</head>
+<body>
+        <center>
+            <h1>JavaScript Interactive Photo Gallery</h1>
+            <div class="gallery">
+                <div class="preview1" onmouseover="upDate('Hover over an image to see details.','')" onmouseout="unDo()">
+                     <div id="mainContent" style="margin-top: 10px;"><p> Hover over an image to see details.</p></div>
+                </div>
+            </div>
+        </center>
+        <center>
+        <div class="container">
+            <div class="box" onmouseover="upDate('DEFENDER', 'defender.jpeg')" onmouseout="unDo()">
+                <p class="tex2">DEFENDER</p>
+            </div>
+            <div class="box1" onmouseover="upDate('BMW I8', 'bmwi8.jpeg')" onmouseout="unDo()">
+                <p class="tex2">BMW I8</p>
+            </div>
+            <div class="box2" onmouseover="upDate('BENZ', 'bensz.jpeg')" onmouseout="unDo()">
+                <p class="tex2">BENZ</p>
+            </div>
+        </div>
+            <p>Cody by Dishma Gangulel Madushanka</p>
+            <p>Date 1/11/2024</p>
+            <p>Homework: JavaScript Interactive Photo Gallery</p>
+            <p>Web Design for Everybody: Basics of Web Development & Coding Specialization</p>
+            <p>Course|University of Michigan</p>
+        </center>
+</body>
+</html>
+
+
